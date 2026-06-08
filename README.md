@@ -196,7 +196,6 @@ Scaffolds emit empty structure. This pipeline emits **entity-specific** CRUD, au
 | [`docs/what-is-spec-driven-development.md`](docs/what-is-spec-driven-development.md) | Short canonical explainer |
 | [`docs/archiet-vs-spec-kit.md`](docs/archiet-vs-spec-kit.md) | Comparison page |
 | [`docs/maturity-levels.md`](docs/maturity-levels.md) | Levels 1–4 framework |
-| [`HN.md`](HN.md) | Show HN title + first-comment draft |
 
 ---
 
