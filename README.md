@@ -7,6 +7,14 @@
 
 ---
 
+## See it run
+
+[![spec-driven-development demo — PRD to a running FastAPI app](demo.svg)](https://github.com/Anioko/spec-driven-development)
+
+> A plain-English PRD → a **bootable FastAPI app** (Postgres, JWT-cookie auth, per-tenant CRUD, auto Swagger docs) in one command. Every line above is real output from a verified run — reproduce it with [`./demo.sh`](demo.sh).
+
+---
+
 ## What is spec-driven development?
 
 **Spec-driven development (SDD)** is a methodology where every implementation decision traces back to a **formal or structured specification** — not a chat log, not "whatever the agent wrote last," and not tribal knowledge in someone's head.
@@ -108,20 +116,22 @@ bootable app
 
 The FastAPI package is one entry point. The same pipeline ships per ecosystem:
 
-| Stack | Install |
-|-------|---------|
-| FastAPI | `pip install archiet-microcodegen` |
-| Flask | `pip install archiet-microcodegen-flask` |
-| Django | `pip install archiet-microcodegen-django` |
-| NestJS | `npx archiet-microcodegen-nestjs` |
-| Go (Chi) | `go install github.com/aniekanasuquookono-web/archiet-microcodegen-go@latest` |
-| Laravel | `composer global require archiet/microcodegen-laravel` |
-| Spring Boot | `java -jar archiet-microcodegen-java.jar` |
-| Rails | `gem install archiet-microcodegen-rails` |
-| .NET | `dotnet tool install archiet-microcodegen-dotnet -g` |
-| Tauri + Rust | `cargo install archiet-microcodegen-tauri` |
+| Stack | Install | Status |
+|-------|---------|--------|
+| **FastAPI** | `pip install archiet-microcodegen` | ✅ reference, verified end-to-end |
+| Flask | `pip install archiet-microcodegen-flask` | published |
+| Django | `pip install archiet-microcodegen-django` | published |
+| NestJS | `npx archiet-microcodegen-nestjs` | published |
+| Go (Chi) | `go install github.com/aniekanasuquookono-web/archiet-microcodegen-go@latest` | published |
+| Laravel | `composer global require archiet/microcodegen-laravel` | published |
+| .NET | `dotnet tool install archiet-microcodegen-dotnet -g` | published |
+| Spring Boot | — | 🚧 coming soon |
+| Rails | — | 🚧 coming soon |
+| Tauri + Rust | — | 🚧 coming soon |
 
-Generate the same PRD in three stacks. Compare structure. Pick one. No vendor IDE required.
+**FastAPI is the fully-verified reference** (the `./demo.sh` above runs against it). The other
+ecosystem packages are community-stage — install commands above are listed only where the package
+is actually published. The full 15-stack matrix (incl. frontend + mobile) lives on [archiet.com](https://archiet.com).
 
 ---
 
