@@ -199,6 +199,7 @@ Scaffolds emit empty structure. This pipeline emits **entity-specific** CRUD, au
 
 ## Links
 
+- **Compliance guide:** [github.com/Anioko/compliance-from-architecture](https://github.com/Anioko/compliance-from-architecture) — three layers (Vanta/Drata vs codegen), EU AI Act
 - **Full platform:** [archiet.com/spec-driven-development](https://archiet.com/spec-driven-development?utm_source=github&utm_medium=readme&utm_campaign=sdd-guide)
 - **Algorithm source:** [github.com/aniekanasuquookono-web/archiet](https://github.com/aniekanasuquookono-web/archiet) (`scripts/microcodegen.py`)
 - **PyPI:** [archiet-microcodegen](https://pypi.org/project/archiet-microcodegen/)
