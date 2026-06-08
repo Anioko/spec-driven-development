@@ -61,7 +61,10 @@ Level 4 treats the spec as a **formal model** (genome). Code is emitted by deter
 ```bash
 git clone https://github.com/Anioko/spec-driven-development.git
 cd spec-driven-development
-chmod +x demo.sh && ./demo.sh
+chmod +x demo.sh && ./demo.sh          # FastAPI (default)
+./demo.sh flask                        # Flask + SQLAlchemy
+./demo.sh django                       # Django + DRF
+./demo.sh nestjs                       # NestJS + TypeORM (requires Node 18+)
 ```
 
 Or with PyPI only:
