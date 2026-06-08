@@ -59,7 +59,7 @@ Level 4 treats the spec as a **formal model** (genome). Code is emitted by deter
 ## Try it now (90 seconds)
 
 ```bash
-git clone https://github.com/aniekanasuquookono-web/spec-driven-development.git
+git clone https://github.com/Anioko/spec-driven-development.git
 cd spec-driven-development
 chmod +x demo.sh && ./demo.sh
 ```

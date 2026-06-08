@@ -5,7 +5,7 @@ layout: default
 
 # Spec-Driven Development Guide
 
-Canonical docs for the [spec-driven-development](https://github.com/aniekanasuquookono-web/spec-driven-development) repository.
+Canonical docs for the [spec-driven-development](https://github.com/Anioko/spec-driven-development) repository.
 
 ## Articles
 
@@ -17,7 +17,7 @@ Canonical docs for the [spec-driven-development](https://github.com/aniekanasuqu
 ## Try it
 
 ```bash
-git clone https://github.com/aniekanasuquookono-web/spec-driven-development.git
+git clone https://github.com/Anioko/spec-driven-development.git
 cd spec-driven-development
 chmod +x demo.sh && ./demo.sh
 ```

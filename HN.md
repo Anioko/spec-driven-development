@@ -17,7 +17,7 @@ Show HN: Same PRD → 9 bootable apps, zero LLM calls (deterministic M2T)
 ## URL
 
 ```
-https://github.com/aniekanasuquookono-web/spec-driven-development
+https://github.com/Anioko/spec-driven-development
 ```
 
 Not archiet.com. Not Ask HN.
@@ -36,7 +36,7 @@ No LLM in the generation step. Same file in, same files out.
 
 Try it:
   pip install archiet-microcodegen
-  git clone https://github.com/aniekanasuquookono-web/spec-driven-development
+  git clone https://github.com/Anioko/spec-driven-development
   cd spec-driven-development && ./demo.sh
 
 The repo also documents where this sits vs GitHub Spec Kit — Spec Kit teaches
