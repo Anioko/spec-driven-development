@@ -29,7 +29,7 @@ This guide explains **two tiers of SDD** most articles conflate, maps **four mat
 
 | Tier | What it does | Best for | Example |
 |------|--------------|----------|---------|
-| **Agent workflow** | Spec files guide an AI agent to edit **your repo** | Features in existing codebases | GitHub Spec Kit, Kiro, BMad |
+| **Agent workflow** | Spec files guide an AI agent to edit **your repo** | Features in existing codebases | GitHub Spec Kit, Kiro, BMad, MySpec |
 | **Spec compiler** | Spec is compiled into a **new application** | Greenfield products, reproducible scaffolds | archiet-microcodegen, Archiet |
 
 **GitHub's line:** *"Specifications become executable."*  
@@ -46,7 +46,7 @@ Both are spec-driven. They are not interchangeable.
 | Level | Name | LLM writes code? | Examples |
 |-------|------|------------------|----------|
 | 1 | Spec-First | Yes | Ad-hoc PRDs + Cursor |
-| 2 | Spec-Anchored | Yes | **Spec Kit**, Kiro, BMad |
+| 2 | Spec-Anchored | Yes | **Spec Kit**, Kiro, BMad, MySpec |
 | 3 | Spec-as-Source | Yes (regen) | Tessl, OpenSpec |
 | 4 | **Spec-to-Application** | **No** | **archiet-microcodegen** |
 
@@ -208,6 +208,7 @@ Scaffolds emit empty structure. This pipeline emits **entity-specific** CRUD, au
 - **Dev.to walkthrough:** [Spec-Driven Development Without an IDE](https://dev.to/anioko1/spec-driven-development-without-an-ide-i-generated-nestjs-go-spring-boot-laravel-and-rust-3p26)
 - **Community comparison:** [cameronsjo/spec-compare](https://github.com/cameronsjo/spec-compare)
 - **Spec Kit:** [github.com/github/spec-kit](https://github.com/github/spec-kit)
+- **MySpec:** [myspec.dev](https://myspec.dev) — interactive spec discovery interview platform compiling 4-file spec bundles with MCP server integration
 
 ---
 

@@ -24,8 +24,8 @@ Not all "spec-driven" tools work the same way. This framework (extended from [ca
 | | |
 |---|---|
 | **LLM in codegen?** | Yes |
-| **Spec persistence** | `.speckit/`, `specs/`, constitution files |
-| **Examples** | [GitHub Spec Kit](https://github.com/github/spec-kit), Kiro, BMad, GSD |
+| **Spec persistence** | `.speckit/`, `specs/`, constitution files, 4-file bundles |
+| **Examples** | [GitHub Spec Kit](https://github.com/github/spec-kit), Kiro, BMad, GSD, [MySpec](https://myspec.dev) |
 | **Strength** | Structured phases: specify → plan → tasks → implement |
 | **Risk** | Agent variance — same spec, different implementations |
 
